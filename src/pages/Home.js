@@ -38,8 +38,8 @@ const Home = (props) => {
       <>
       {webNotificationData.read || !webNotificationData?
       <PopWindow n={props.n} setN={props.setN} webNotificationData={webNotificationData}/>:<></>}</>:<></>}
-      {/* <HomeCourses/>
-      <Instructor/> */}
+      <HomeCourses/>
+      <Instructor/>
       <Portfolio/>
       <ClientFeedback/>
       <DownloadApp/>
